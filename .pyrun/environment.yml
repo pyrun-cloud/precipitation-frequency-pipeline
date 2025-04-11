@@ -9,11 +9,20 @@ name: base
 channels:
   - conda-forge
 dependencies:
-  - python=3.12
+  - git
   - ipykernel
   - ipywidgets
-  - git
-
-  # Dask packages
+  - zarr
+  - xarray
+  - s3fs
+  - gcsfs
+  - cftime
+  - nc-time-axis
+  - papermill
+  - notebook
+  - matplotlib
   - dask
   - dask-cloudprovider
+  - xhistogram
+  - pip:
+    - xarray
