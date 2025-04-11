@@ -1,0 +1,19 @@
+# Welcome to PyRun!
+
+# Need to install more packages? Just edit this file.
+
+# Add packages from conda-forge under "dependencies:"
+# Packages from PyPI should be added under "pip:"
+
+name: base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipykernel
+  - ipywidgets
+  - git
+
+  # Dask packages
+  - dask
+  - dask-cloudprovider
