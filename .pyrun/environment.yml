@@ -9,9 +9,11 @@ name: base
 channels:
   - conda-forge
 dependencies:
-  - git
   - ipykernel
   - ipywidgets
+  - git
+  - dask
+  - dask-cloudprovider
   - zarr
   - xarray
   - s3fs
@@ -21,8 +23,6 @@ dependencies:
   - papermill
   - notebook
   - matplotlib
-  - dask
-  - dask-cloudprovider
   - xhistogram
   - pip:
     - xarray
