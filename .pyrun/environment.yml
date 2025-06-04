@@ -26,3 +26,4 @@ dependencies:
   - xhistogram
   - pip:
     - xarray
+    - dask-cloudprovider[ibm] @ git+https://github.com/dask/dask-cloudprovider.git
